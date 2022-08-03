@@ -1,0 +1,27 @@
+*/venv
+*.env
+secrets.py
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+*/node_modules
+*/.pnp
+*.pnp.js
+
+# testing
+*/coverage
+
+# production
+*/build
+
+# misc
+expense_tracker/*.DS_Store
+expense_tracker/*.env.local
+expense_tracker/*.env.development.local
+expense_tracker/*.env.test.local
+expense_tracker/*.env.production.local
+
+expense_tracker/npm-debug.log*
+expense_tracker/yarn-debug.log*
+expense_tracker/yarn-error.log*

@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 1px;
+    background: none;
+    cursor: pointer;
+}
+
+hr {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#navBar {
+    padding: 20px 0 20px 25px;
+    height: 30px;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    background: lightblue;
+}
+
+.nav-button {
+    font-size: x-large;
+    padding-right: 10px;
+}
+
+.calendar {
+    width: 300px; 
+    display: inline-block;
+    font-size: small;
+}
+
+.form-container {
+    margin: 20px 0 20px 25px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width:40%;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.text-forms {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    align-items: center;
+    margin-top: 10px;
+}
+
+#new-expense-button {
+    font-weight: 700;
+    font-size: medium;
+    margin: 40px 0 20px 0;
+    width: 75px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+#new-expense-button:hover {
+    background-color: rgb(227, 117, 117);
+}
+
+.remove-button {
+    color:  black;
+    position: absolute;
+    left: 37.5%;
+    padding: 2.5px 5px 4px 5px;
+}
+
+.category-container > .remove-button {
+    margin: 3px 0 0 0;
+}
+
+
+
+
+
+.remove-button:hover {
+    background-color: rgb(227, 117, 117);
+}
+
+input {
+    border-radius: 2px;
+    height: 20px;
+    width: 200px;
+    font-size: small;
+    border: solid 1.5px black;
+}
+
+#user-data-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    /* background-color: lightgray; */
+}
+
+.category-container {
+    /* background-color: aqua; */
+    margin: 25px 0 -20px 0;
+}
+
+.expense-info {
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    padding: 25px 0 0 20px;
+}
+
+.expense-info > .date {
+    margin-right: 10px;
+    position: absolute;
+    left: 50px;
+}
+
+.expense-info > .amount {
+    position: absolute;
+    margin-right: 10px;
+    left: 100px;
+}
+
+.expense-info > .name {
+    position: absolute;
+    inline-size: 325px;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    left: 165px;
+}
